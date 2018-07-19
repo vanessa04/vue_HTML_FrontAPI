@@ -1,0 +1,23 @@
+
+<body>
+	
+</body>
+<div>
+	<div id="app" >
+		<div style="background-image:url('plant-flower-bloom-36764.jpg')" width="900px">
+  	<ol>
+    	<li v-for="arti in Artis">
+      		{{ arti.title }},</br>{{ arti.author }},</br>{{ arti.paragrath }}, </br> <img :src="arti.Image" height="200" width="200"  />
+    	</li>
+			
+  	</ol>
+  </div>
+
+  	<button v-on:click="addArt"> Fetch data</button>
+  	<img scr="http://www.whitelawandco.com/images/Jonathan.jpg"/>
+</div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script src="app.js"></script>
+<script src="main.js"></script>
+<!-- this is a change to it -->
